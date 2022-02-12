@@ -10,7 +10,7 @@
 https://moeisawesome.github.io/foodhub/
 
 
-**What tools are used in this project?**
+**What tools were used in this project?**
 * HTML
 * CSS
 * SASS
