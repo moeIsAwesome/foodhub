@@ -1,0 +1,506 @@
+.sec-contact-us{
+
+height: auto;
+
+
+.maincont3{
+
+    display: flex;
+
+    @include respond (phablet-l){
+        flex-direction: column;
+     }
+
+
+    @include respond (phablet-m){
+        flex-direction: column;
+     }
+
+    @include respond (myphone){
+        flex-direction: column;
+     }
+
+     display: flex;
+     @include respond (a7){
+         flex-direction: column;
+      }
+
+      display: flex;
+      @include respond (phablet-s){
+          flex-direction: column;
+       }
+
+
+      display: flex;
+      @include respond (mobile){
+          flex-direction: column;
+       }
+
+    display: flex;
+    @include respond (iphonex){
+        flex-direction: column;
+     }
+    display: flex;
+    @include respond (iphone678){
+        flex-direction: column;
+     }
+
+     display: flex;
+     @include respond (sonya1ultra){
+         flex-direction: column;
+      }
+
+      display: flex;
+      @include respond (mobile-s){
+          flex-direction: column;
+       }
+
+       display: flex;
+       @include respond (mobile-xs){
+           flex-direction: column;
+        }
+    
+   
+
+
+    &__address{
+        flex: 0 0 39.8%;
+        padding-left: 18%;
+
+
+        @include respond (tablet){
+            padding-left: 3vw;
+         }
+
+         @include respond (phablet-l){
+            padding-left: 2rem;
+         }
+
+
+        @include respond (phablet-m){
+            padding-left: 2rem;
+         }
+
+
+        @include respond (myphone){
+            padding-left: 2rem;
+         }
+
+         @include respond (a7){
+            padding-left: 2rem;
+         }
+
+         @include respond (phablet-s){
+            padding-left: 2rem;
+         }
+
+
+         @include respond (mobile){
+            padding-left: 2rem;
+         }
+
+        @include respond (iphonex){
+            padding-left: 2rem;
+         }
+        @include respond (iphone678){
+            padding-left: 2rem;
+         }
+         @include respond (sonya1ultra){
+            padding-left: 2rem;
+         }
+
+         @include respond (mobile-s){
+            padding-left: 2rem;
+         }
+
+         @include respond (mobile-xs){
+            padding-left: 2rem;
+         }
+      
+
+
+    }
+
+
+    &__map{
+
+        flex: 0 0 59.8%;
+        height: 45rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include respond (phablet){
+            margin-top: 3rem;
+         }
+
+        @include respond (myphone){
+            margin-top: 3rem;
+         }
+
+         @include respond (a7){
+            margin-top: 3rem;
+         }
+
+         @include respond (phablet-s){
+            margin-top: 3rem;
+         }
+
+         @include respond (mobile){
+            margin-top: 3rem;
+         }
+
+
+        @include respond (iphonex){
+            margin-top: 3rem;
+         }
+        @include respond (iphone678){
+            margin-top: 3rem;
+         }
+
+         @include respond (sonya1ultra){
+            margin-top: 3rem;
+         }
+      
+         @include respond (mobile-s){
+            margin-top: 3rem;
+         }
+         @include respond (mobile-xs){
+            margin-top: 3rem;
+         }
+      
+
+
+    }
+
+    &__line{
+    
+        flex: 0 0 0.1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+}
+
+
+.googlemap{
+    height: 95%;
+    width: 90%;
+    opacity: 0;
+
+   
+
+    @include respond (tablet){
+        opacity: 1;
+    }
+
+    @include respond (phablet-l){
+        opacity: 1;
+    }
+
+
+    @include respond (phablet-m){
+        opacity: 1;
+    }
+
+
+    @include respond (myphone){
+        opacity: 1;
+    }
+
+    @include respond (a7){
+        opacity: 1;
+    }
+
+    @include respond (phablet-s){
+        opacity: 1;
+    }
+
+    @include respond (mobile){
+        opacity: 1;
+    }
+    @include respond (iphonex){
+        opacity: 1;
+    }
+
+    @include respond (iphone678){
+        opacity: 1;
+    }
+
+    @include respond (sonya1ultra){
+        opacity: 1;
+    }
+
+    @include respond (mobile-s){
+        opacity: 1;
+    }
+
+    @include respond (mobile-xs){
+        opacity: 1;
+    }
+    
+    
+
+}
+
+.sep{
+    background-color: $red;
+    height: 88%;
+
+    @include respond (phablet-l){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (phablet-m){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (myphone){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (a7){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (phablet-s){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (mobile){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (iphonex){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (iphone678){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (sonya1ultra){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (mobile-s){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    
+    @include respond (mobile-xs){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    
+ 
+}
+
+.addressbox{
+    display: flex;
+}
+
+
+.icon{
+
+    width: 4rem;
+    height: 4rem;
+    fill: $red-light;
+    margin-left: 3%;
+    opacity: 0;
+
+
+   
+    @include respond (tablet){
+        opacity: 1;
+    }
+
+    @include respond (phablet-l){
+        opacity: 1;
+    }
+
+
+    @include respond (phablet-m){
+        opacity: 1;
+    }
+
+
+    @include respond (myphone){
+        opacity: 1;
+    }
+
+    @include respond (a7){
+        opacity: 1;
+    }
+
+    @include respond (phablet-s){
+        opacity: 1;
+    }
+
+    @include respond (mobile){
+        opacity: 1;
+    }
+    @include respond (iphonex){
+        opacity: 1;
+    }
+    @include respond (iphone678){
+        opacity: 1;
+    }
+
+    @include respond (sonya1ultra){
+        opacity: 1;
+    }
+
+    @include respond (mobile-s){
+        opacity: 1;
+    }
+
+    @include respond (mobile-xs){
+        opacity: 1;
+    }
+
+}
+
+
+.addressbox{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.phonebox{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+}
+
+.mailbox{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.txt-address{
+    margin-left: 1.2rem;
+    margin-bottom: 1.2rem;
+
+    @include respond (phablet-l){
+        font-size: 2rem;
+        }
+
+    @include respond (phablet-m){
+        font-size: 2rem;
+        }
+
+    @include respond (myphone){
+        font-size: 1.9rem;
+        }
+
+
+        @include respond (a7){
+            font-size: 1.9rem;
+            }
+
+            @include respond (phablet-s){
+                font-size: 1.9rem;
+                }
+
+            @include respond (mobile){
+                font-size: 1.9rem;
+                }
+
+    @include respond (iphonex){
+        font-size: 1.9rem;
+        }
+
+    @include respond (iphone678){
+        font-size: 1.9rem;
+        }
+
+        @include respond (sonya1ultra){
+            font-size: 1.9rem;
+            }
+
+            @include respond (mobile-s){
+                font-size: 1.9rem;
+                }
+
+                @include respond (mobile-xs){
+                    font-size: 1.9rem;
+                    }
+    
+}
+
+
+.signature{
+    margin-top: 5rem;
+    font-size: 2rem;
+    color: #1a1a1a;
+
+    @include respond (phablet-l){
+        margin-top: 2rem;
+        }
+
+    @include respond (phablet-m){
+        margin-top: 2rem;
+        }
+
+
+
+    @include respond (myphone){
+        margin-top: 2rem;
+        }
+
+
+        @include respond (a7){
+            margin-top: 2rem;
+            }
+
+            @include respond (phablet-s){
+                margin-top: 2rem;
+                }
+
+            @include respond (mobile){
+                margin-top: 2rem;
+                }
+        
+    @include respond (iphonex){
+        margin-top: 2rem;
+        }
+
+    @include respond (iphone678){
+        margin-top: 2rem;
+        }
+
+        @include respond (sonya1ultra){
+            margin-top: 2rem;
+            }
+
+            @include respond (mobile-s){
+                margin-top: 2rem;
+                }
+
+                @include respond (mobile-xs){
+                    margin-top: 2rem;
+                    }
+    
+
+}
+}

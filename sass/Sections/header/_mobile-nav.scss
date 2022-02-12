@@ -1,0 +1,427 @@
+
+.mobile-nav{
+
+    @include respond (4k){
+        display: none;
+    }
+
+    @include respond (desktop){
+        display: none;
+    }
+
+    @include respond (desktop-s){
+        display: none;
+    }
+
+    @include respond (laptop){
+        display: none;
+    }
+
+    @include respond (tablet){
+        display: none;
+    }
+
+    @include respond (phablet-l){
+        display: none;
+    }
+
+    &__logo{
+
+        margin-top: 2.5rem;
+        margin-left: 2rem;
+        height: 10rem;
+        width: auto;
+
+
+        @include respond (phablet-l){
+            height: 9rem;
+            width: auto;
+        }
+
+
+        @include respond (phablet-m){
+            height: 8.8rem;
+            width: auto;
+        }
+
+        @include respond (myphone){
+            height: 7.8rem;
+            width: auto;
+        }
+
+
+        @include respond (a7){
+            height: 7.8rem;
+            width: auto;
+        }
+
+
+        @include respond (phablet-s){
+            height: 7.6rem;
+            width: auto;
+        }
+
+
+        @include respond (mobile){
+            height: 7.4rem;
+            width: auto;
+        }
+
+
+        @include respond (iphonex){
+            height: 7.4rem;
+            width: auto;
+        }
+
+        @include respond (iphone678){
+            height: 7.4rem;
+            width: auto;
+        }
+
+        @include respond (sonya1ultra){
+            height: 7.4rem;
+            width: auto;
+        }
+
+        @include respond (mobile-s){
+            height: 7.4rem;
+            width: auto;
+        }
+
+        @include respond (mobile-xs){
+            height: 7.4rem;
+            width: auto;
+        }
+
+
+       
+    }
+
+    &__list{
+
+        position: fixed;
+        top: 45%;
+        left: -50%;
+        transform: translate(-50%,-50%);
+        list-style: none;
+        text-align: center;
+        width: 100%;
+        z-index: 12;
+        transition: all .8s cubic-bezier(0.86, 0, 0.07, 1);
+
+    }
+
+    &__items{
+        margin: 2.2rem;
+
+    }
+
+    &__link{
+        font-size: 2.8rem;
+        font-weight: 300;
+        color: $red-light;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1rem;
+        border-radius: 5%;
+        background-color: $gray-light;
+
+
+        @include respond (phablet-s){
+            font-size: 2.7rem;
+        }
+
+
+        @include respond (mobile){
+            font-size: 2.6rem;
+        }
+
+
+        @include respond (mobile-s){
+            font-size: 2.45rem;
+        }
+
+        @include respond (mobile-xs){
+            font-size: 2.45rem;
+        }
+
+    }
+
+    &__checkbox:checked + &__link{
+        background-color: yellowgreen;
+    }
+
+    &__checkbox{
+        display: none;
+    }
+
+    &__checkbox:checked ~ &__background{
+        transform: scale(50);
+}
+
+
+    &__checkbox:checked ~ &__list{
+        left: 50%;
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+    &__button{
+
+        background-color: $red-light;
+        height: 6.5rem;
+        width: 6.5rem;
+        position: fixed;
+        top: 2.5rem;
+        left: 54rem;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        z-index: 11;
+
+
+        @include respond (phablet-l){
+            top: 3rem;
+        }
+
+        @include respond (phablet-m){
+            top: 2.9rem;
+            left: 86vw;
+
+        }
+
+
+        @include respond (myphone){
+            height: 5.5rem;
+            width: 5.5rem;
+            left: 85vw;
+            top: 2.8rem;
+        }
+
+        @include respond (a7){
+            height: 5.5rem;
+            width: 5.5rem;
+            left: 85vw;
+            top: 2.8rem;
+        }
+
+        @include respond (phablet-s){
+            height: 5.4rem;
+            width: 5.4rem;
+            left: 80vw;
+            top: 2.75rem;
+        }
+
+
+        @include respond (mobile){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 80vw;
+            top: 2.75rem;
+        }
+
+
+        @include respond (iphonex){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 80vw;
+            top: 2.75rem;
+        }
+
+        @include respond (iphone678){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
+        @include respond (sonya1ultra){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
+        @include respond (mobile-s){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
+        @include respond (mobile-xs){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
+
+        
+
+    
+                    
+
+    }
+
+    &__background{
+        background-color: rgba($gray-dark,.97);
+        height: 6.5rem;
+        width: 6.5rem;
+        position: fixed;
+        top: 2.5rem;
+        left: 54rem;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+
+
+        @include respond (phablet-l){
+            top: 2.8rem;
+        }
+        
+        @include respond (phablet-m){
+            top: 2.9rem;
+            left: 86vw;
+        }
+
+        @include respond (myphone){
+            height: 5.5rem;
+            width: 5.5rem;
+            left: 85vw;
+            top: 2.8rem;
+        }
+
+        @include respond (a7){
+            height: 5.5rem;
+            width: 5.5rem;
+            left: 85vw;
+            top: 2.8rem;
+        }
+
+        @include respond (phablet-s){
+            height: 5.4rem;
+            width: 5.4rem;
+            left: 80vw;
+            top: 2.75rem;
+        }
+
+        @include respond (mobile){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 80vw;
+            top: 2.75rem;
+        }
+
+        @include respond (iphonex){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 80vw;
+            top: 2.75rem;
+        }
+
+
+        @include respond (iphone678){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
+        @include respond (sonya1ultra){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
+        @include respond (mobile-s){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
+        @include respond (mobile-xs){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
+    }
+
+
+    
+    
+}
+
+
+
+.toggle-icon{
+
+    height: 4.5rem;
+    fill: $gray-light;
+
+
+    @include respond (phablet-l){
+        height: 4rem;
+    }
+
+    @include respond (phablet-m){
+        height: 4rem;
+    }
+
+
+    @include respond (myphone){
+        height: 3.88rem;
+    }
+
+    @include respond (a7){
+        height: 3.88rem;
+    }
+
+
+    @include respond (phablet-s){
+        height: 3.9rem;
+    }
+    
+    @include respond (mobile){
+        height: 3.88rem;
+    }
+
+
+    @include respond (iphonex){
+        height: 3.88rem;
+    }
+
+    
+    @include respond (iphone678){
+        height: 3.88rem;
+    }
+
+    @include respond (sonya1ultra){
+        height: 3.88rem;
+    }
+
+    @include respond (mobile-s){
+        height: 3.88rem;
+    }
+
+    @include respond (mobile-xs){
+        height: 3.88rem;
+    }
+}
+
+

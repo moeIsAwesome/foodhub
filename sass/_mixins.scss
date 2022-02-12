@@ -1,0 +1,81 @@
+
+
+// Dedault design: 1920x937
+$mobile-max: 460px;
+
+
+@mixin respond ($breakpoint){
+
+    @if $breakpoint == 4k {
+        @media (min-width:2561px) { @content};
+    }
+
+    // ###########BASE###############
+
+    @if $breakpoint == desktop {
+        @media (min-width:1751px) and (max-width:2560px) { @content};
+    }
+
+
+     @if $breakpoint == desktop-s {
+        @media (min-width:1441px) and (max-width:1750px) { @content};
+    }
+
+    @if $breakpoint == laptop {
+        @media (min-width:1024px) and (max-width:1440px) { @content};
+    }
+
+    @if $breakpoint == tablet {
+        @media (min-width:768px) and (max-width:1023px) { @content};
+    }
+
+    @if $breakpoint == phablet-l {
+        @media (min-width:461px) and (max-width:767px) { @content};
+    }
+
+
+    @if $breakpoint == phablet-m {
+        @media (min-width:412px) and (max-width:460px) { @content};
+    }
+
+    @if $breakpoint == myphone {       //Samsung Galaxy J6+  & S8 
+        @media (width:412px) and (max-height:846px ) { @content};
+    }
+
+    @if $breakpoint == a7 {       //=412x732px Samsung A7 vp = 412x652px
+        @media (width:412px) and (max-height:732px ) { @content};
+    }
+
+    @if $breakpoint == phablet-s {
+        @media (min-width:376px) and (max-width:411px) { @content};
+    }
+
+    @if $breakpoint == mobile {
+        @media (min-width:360px) and (max-width:375px) { @content};
+    }
+
+    @if $breakpoint == iphonex {       //=375xmin556px Iphone 6/7/8 = 375x667   [- ~111px nav+add height=min556px]
+        @media (width:375px) and (max-height:812px ) { @content};
+    }
+    
+    @if $breakpoint == iphone678 {   //=375xmin556px Iphone 6/7/8 = 375x667   [-~111px nav+add height=min556px]
+        @media (width:375px) and (max-height:667px ) { @content};
+    
+    }
+
+    @if $breakpoint == sonya1ultra {     
+        @media (width:360px) and (max-height:640px ) { @content};
+    
+    }
+
+    @if $breakpoint == mobile-s {
+        @media (min-width:321px) and (max-width:359px) { @content};
+    }
+
+    @if $breakpoint == mobile-xs {
+        @media (max-width:320px) { @content};
+    }
+
+
+
+}

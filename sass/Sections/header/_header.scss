@@ -1,0 +1,615 @@
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-L.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+
+
+    @include respond (4k){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg.jpg);
+    }
+
+
+
+
+    @include respond (desktop-s){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-L.jpg);
+    }
+
+
+    @include respond (laptop){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-L.jpg);
+    }
+
+
+    @include respond (tablet){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-L.jpg);
+    }
+
+
+    @include respond (phablet-l){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-M.jpg);
+    }
+
+
+    @include respond (phablet-m){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-M.jpg);
+    }
+
+    @include respond (myphone){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-M.jpg);
+    }
+
+    @include respond (a7){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-M.jpg);
+    }
+
+    @include respond (mobile){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-M.jpg);
+    }
+
+    @include respond (iphonex){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-L.jpg);
+    }
+    @include respond (iphone678){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-L.jpg);
+    }
+
+    @include respond (sonya1ultra){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-M.jpg);
+    }
+
+    @include respond (mobile-s){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-S.jpg);
+    }
+
+    @include respond (mobile-xs){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-XS.jpg);
+    }
+
+
+
+}
+
+.herotext-cont{
+    position: relative;
+    top: 10rem;
+
+ 
+
+    @include respond (tablet){
+        top: 22vh;
+    }
+
+    @include respond (phablet-l){
+        top: 20vh;
+    }
+
+
+    @include respond (phablet-m){
+        top: 20vh;
+    }
+
+    @include respond (myphone){
+        top: 19vh;
+    }
+
+    @include respond (a7){
+        top: 19vh;
+    }
+
+
+    @include respond (phablet-s){
+        top: 14vh;
+    }
+
+
+    @include respond (mobile){
+        top: 14vh;
+    }
+
+    @include respond (iphonex){
+        top: 14vh;
+    }
+
+    @include respond (iphone678){
+        top: 12vh;
+        padding-left: 3vw;
+    }
+
+    @include respond (sonya1ultra){
+        top: 25vh;
+        padding-left: 3vw;
+    }
+
+    @include respond (mobile-s){
+        top: 25vh;
+        padding-left: 3vw;
+    }
+
+    @include respond (mobile-xs){
+        top: 25vh;
+        padding-left: 3vw;
+    }
+   
+   
+   
+    
+
+
+}
+.header-box1{
+
+text-align: center;
+font-size: 4rem;  
+animation-delay: 1.1s;
+--animate-duration: 1.5s;
+
+
+@include respond (desktop-s){
+    font-size: 3.8rem;  
+}
+
+
+@include respond (laptop){
+    font-size: 3.5rem;  
+}
+
+@include respond (tablet){
+    font-size: 3.2rem;  
+}
+
+@include respond (phablet-l){
+    font-size: 2.9rem;  
+}
+@include respond (phablet-m){
+    font-size: 2.9rem;  
+}
+
+@include respond (myphone){
+    font-size: 2.7rem;  
+}
+
+@include respond (a7){
+    font-size: 2.7rem;  
+}
+
+@include respond (phablet-s){
+    font-size: 2.4rem;  
+}
+
+@include respond (mobile){
+    font-size: 2.4rem;  
+}
+
+@include respond (iphonex){
+    font-size: 2.4rem;  
+}
+
+@include respond (iphone678){
+    font-size: 2.4rem;  
+}
+
+@include respond (sonya1ultra){
+    font-size: 2.4rem;  
+}
+
+@include respond (mobile-s){
+    font-size: 2.4rem;  
+}
+@include respond (mobile-xs){
+    font-size: 2.4rem;  
+}
+
+
+
+
+
+&__title{
+
+    color: $gray-light;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5rem;
+    text-align: center;
+
+    @include respond (tablet){
+        letter-spacing: 4.3rem;
+ 
+    }
+
+
+    @include respond (phablet-l){
+        letter-spacing: 3.6rem;
+ 
+    }
+
+    @include respond (phablet-m){
+        letter-spacing: 3.6rem;
+ 
+    }
+    @include respond (myphone){
+        letter-spacing: 3.3rem;
+    }
+
+    @include respond (a7){
+        letter-spacing: 3.3rem;
+ 
+    }
+
+    @include respond (phablet-s){
+        letter-spacing: 3rem;
+ 
+    }
+
+    @include respond (mobile){
+        letter-spacing: 3rem;
+ 
+    }
+
+
+    @include respond (iphonex){
+        letter-spacing: 3rem;
+ 
+    }
+
+    @include respond (iphone678){
+        letter-spacing: 3rem;
+ 
+    }
+
+    @include respond (sonya1ultra){
+        letter-spacing: 3rem;
+ 
+    }
+
+    @include respond (mobile-s){
+        letter-spacing: 3rem;
+ 
+    }
+
+    
+    @include respond (mobile-xs){
+        letter-spacing: 3rem;
+ 
+    }
+
+
+
+
+
+
+}}
+
+
+.header-box2{
+
+    text-align: center;
+    font-size: 3rem; 
+    animation-delay: 1.5s;
+    --animate-duration: 1.8s;
+
+
+    @include respond (desktop-s){
+        font-size: 2.8rem;  
+    }
+
+
+    @include respond (laptop){
+        font-size: 2.7rem;  
+    }
+
+    @include respond (tablet){
+        font-size: 2.4rem;  
+    }
+
+
+
+    @include respond (phablet-l){
+        font-size: 2.3rem;  
+    }
+
+
+    @include respond (phablet-m){
+        font-size: 2.3rem;  
+    }
+
+
+    @include respond (myphone){
+        font-size: 2.2rem;  
+    }
+
+    @include respond (a7){
+        font-size: 2.2rem;  
+    }
+
+    @include respond (phablet-s){
+        font-size: 2rem;  
+    }
+
+    @include respond (mobile){
+        font-size: 2rem;  
+    }
+
+
+
+    @include respond (iphonex){
+        font-size: 2rem;  
+    }
+
+
+
+    @include respond (iphone678){
+        font-size: 2rem;  
+    }
+
+    @include respond (sonya1ultra){
+        font-size: 2rem;  
+    }
+
+    @include respond (mobile-s){
+        font-size: 2rem;  
+    }
+
+    @include respond (mobile-xs){
+        font-size: 2rem;  
+    }
+
+
+
+
+
+
+
+  
+    
+
+
+    
+    
+    &__sub1{
+    
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 4.5rem;
+        text-align: center;
+
+
+        @include respond (tablet){
+            letter-spacing: 3.9rem;
+        }
+
+        @include respond (phablet-l){
+            letter-spacing: 3.1rem;
+        }
+
+
+        @include respond (phablet-m){
+            letter-spacing: 3.1rem;
+        }
+
+
+        
+        @include respond (myphone){
+            letter-spacing: 2.9rem;
+        }
+
+        @include respond (a7){
+            letter-spacing: 2.9rem;
+        }
+
+        @include respond (phablet-s){
+            letter-spacing: 2.5rem;
+        }
+
+        @include respond (mobile){
+            letter-spacing: 2.5rem;
+        }
+
+
+        @include respond (iphonex){
+            letter-spacing: 2.5rem;
+        }
+
+        @include respond (iphone678){
+            letter-spacing: 2.5rem;
+        }
+
+        @include respond (sonya1ultra){
+            letter-spacing: 2.5rem;
+        }
+
+        @include respond (mobile-s){
+            letter-spacing: 2.5rem;
+        }
+
+        @include respond (mobile-xs){
+            letter-spacing: 2.5rem;
+        }
+     
+     
+
+       
+    }}
+
+
+    .header-box3{
+
+        text-align: center;
+        font-size: 2rem; 
+        animation-delay: 1.7s;
+        --animate-duration: 1.8s;
+
+        @include respond (tablet){
+            font-size: 1.85rem;  
+        }
+
+        @include respond (phablet-l){
+            font-size: 1.7rem;  
+        }
+
+        @include respond (phablet-m){
+            font-size: 1.7rem;  
+        }
+
+        @include respond (myphone){
+            font-size: 1.7rem;  
+        }
+
+        @include respond (a7){
+            font-size: 1.7rem;  
+        }
+
+        @include respond (phablet-s){
+            font-size: 1.4rem;  
+        }
+
+
+        @include respond (mobile){
+            font-size: 1.4rem;  
+        }
+
+        @include respond (iphonex){
+            font-size: 1.4rem;  
+        }
+
+        @include respond (iphone678){
+            font-size: 1.4rem;  
+        }
+
+        @include respond (sonya1ultra){
+            font-size: 1.4rem;  
+        }
+
+        @include respond (mobile-s){
+            font-size: 1.4rem;  
+        }
+        @include respond (mobile-xs){
+            font-size: 1.4rem;  
+        }
+       
+       
+       
+
+
+
+
+
+        
+        &__sub2{
+        
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 300;
+            letter-spacing: .75rem;
+            text-align: center;
+
+                   
+        }}
+        
+
+
+
+.herotext-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-box{
+    display: inline-block;
+    padding-top: 24rem;
+    z-index: 0;
+
+
+    @include respond (desktop-s){
+        padding-top: 22.5vh;
+    }
+
+
+    @include respond (laptop){
+        padding-top: 23.5vh;
+    }
+
+
+    @include respond (tablet){
+        padding-top: 21vh;
+    }
+
+
+
+    @include respond (phablet-l){
+        padding-top: 27vh;
+    }
+
+
+    @include respond (phablet-m){
+        padding-top: 27vh;
+    }
+
+
+    @include respond (myphone){
+        padding-top: 27vh;
+    }
+
+    @include respond (a7){
+        padding-top: 27vh;
+    }
+
+    @include respond (phablet-s){
+        padding-top: 30vh;
+    }
+
+    @include respond (mobile){
+        padding-top: 35vh;
+    }
+
+    @include respond (iphonex){
+        padding-top: 35vh;
+    }
+
+
+    @include respond (iphone678){
+        padding-top: 30vh;
+    }
+
+    @include respond (sonya1ultra){
+        padding-top: 30vh;
+    }
+
+
+    @include respond (mobile-s){
+        padding-top: 30vh;
+    }
+
+    @include respond (mobile-xs){
+        padding-top: 30vh;
+    }
+
+   
+    }
+
+.btn-hide{
+    animation: fadein 1.8s;
+
+    }
+    
+    @keyframes fadein {
+        0%,50%,70% {opacity:0;}
+        90%,100% {opacity:1;}
+    }
+    
+.anmt-cnfg{
+
+    animation-delay: 1s;
+    --animate-duration: .8s;
+}
+
+
+
+
+
+

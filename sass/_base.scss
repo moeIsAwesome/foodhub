@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+
+//******************************MAIN******************************//
+html{
+
+    font-size: 62.5%; //1rem=10px
+    scroll-behavior: smooth;
+
+   
+
+    @include respond (desktop-s){
+        font-size: 55%;
+    }
+
+    @include respond (laptop){
+        font-size: 51%;
+    }
+
+    @include respond (tablet){
+        font-size: 47.5%;
+    }
+
+    @include respond (phablet-l){
+        font-size: 47%;
+    }
+
+
+    @include respond (phablet-m){
+        font-size: 45%;
+    }
+
+
+    @include respond (myphone){
+        font-size: 45%;
+    }
+
+    @include respond (a7){
+        font-size: 45%;
+    }
+
+    @include respond (phablet-s){
+        font-size: 45%;
+    }
+
+    @include respond (mobile){
+        font-size: 44%;
+    }
+
+    @include respond (iphonex){
+        font-size: 45%;
+    }
+    @include respond (iphone678){
+        font-size: 42%;
+    }
+
+    @include respond (sonya1ultra){
+        font-size: 41%;
+    }
+
+    
+    @include respond (mobile-s){
+        font-size: 38%;
+    }
+
+    @include respond (mobile-xs){
+        font-size: 35%;
+    }
+
+
+
+
+
+}
+
+
+body{
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+line-height: 1.6;
+color: $gray;
+background-color: $gray-darker;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+.maincont4{
+height: 10rem;
+background-color: $gray-darkest;
+}
+
+
+.footer__text{
+    text-align: center;
+    padding-top: 2%;
+
+    @include respond (phablet-l){
+        padding-top: 2rem;
+        height: auto;
+    }
+
+    @include respond (phablet-m){
+        padding-top: 2rem;
+        height: auto;
+    }
+
+    @include respond (myphone){
+        padding-top: 2rem;
+        height: auto;
+    }
+
+    @include respond (a7){
+        padding-top: 2rem;
+        height: auto;
+    }
+
+    @include respond (mobile){
+        padding-top: 2rem;
+        height: auto;
+    }
+
+    @include respond (iphonex){
+        padding-top: 2rem;
+        height: auto;
+    }
+
+    @include respond (iphone678){
+        padding-top: 2rem;
+    }
+
+    @include respond (sonya1ultra){
+        padding-top: 2rem;
+    }
+
+    @include respond (mobile-s){
+        padding-top: 2rem;
+    }
+    @include respond (mobile-xs){
+        padding-top: 2rem;
+    }
+}

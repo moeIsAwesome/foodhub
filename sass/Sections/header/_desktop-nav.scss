@@ -1,0 +1,183 @@
+.navigation{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0 , 0, 0, .35);
+    align-items: center;
+    animation-delay: 1.1s;
+    --animate-duration: .8s;
+    // *************************RESPONSIVE************************* //
+
+    // ************************MOBILE************************ //
+    @media (max-width: $mobile-max) {
+    
+        display: none;
+
+        }
+    // ******************************************************* //
+    
+    }
+    
+    
+
+    .logocont{
+
+        margin-right: auto;
+        margin: 2rem 4rem;
+        
+        @include respond (tablet){
+            margin: 2.3rem 4rem;
+
+        }
+
+        @include respond (phablet-l){
+            margin: 2.3rem 1rem;
+
+        }
+    
+
+        &__logo{
+            width: 10rem; 
+            object-fit: cover;
+            @include respond (phablet-l){
+                width: 7rem;
+    
+            }
+        }
+        
+
+
+    }
+  
+    
+    .nav-menu{
+        margin: 2rem 4rem;
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        @include respond (phablet-l){
+            margin: 1rem 1rem;
+            flex-wrap: nowrap;
+        }
+
+        &__items{
+            border: 2px solid $red-dark;
+            border-radius: 10rem;
+            transition: all .4s;
+            display: flex;
+            margin-left: 2rem;
+
+            @include respond (phablet-l){
+                margin-left: 1rem;
+    
+            }
+        
+            
+
+        }
+    
+    
+        &__items:hover{
+            background-color: $red-dark;
+            border: 2px solid $gray-light;
+            
+        }
+    
+        &__items--unique{
+            border: 2px solid $gray-light;
+            border-radius: 10rem;
+            transition: all .4s;
+            background-color: $red-dark;
+            display: flex;
+            margin-left: 2rem;
+
+            @include respond (phablet-l){
+                margin-left: 1rem;
+    
+            }
+ 
+    
+        }
+    
+        &__items--unique:hover{
+            border: 2px solid $yellow-dark;
+            background-color: transparent;
+
+        }
+    
+        &__links{
+            font-size: 2rem;    
+            font-weight: 400;
+            color: $gray-light;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: block;
+            padding: 0.5rem 2rem;
+            justify-content: center;
+            align-items: center;
+
+            
+        @include respond (tablet){
+            font-size: 1.85rem;    
+            padding: 0.2rem 1rem;
+
+
+        }
+
+        @include respond (phablet-l){
+            font-size: 1.5rem;    
+            padding: 0.2rem 1rem;
+
+
+        }
+      
+    
+    
+    
+           
+        }
+    
+    
+        &__links:hover{
+            color: $white;
+    
+        }
+    
+    
+        &__links--unique{
+            font-size: 2rem;    
+            color: $gray;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: block;
+            padding: 0.5rem 2rem;  
+            justify-content: center;
+            align-items: center;
+            @include respond (tablet){
+                font-size: 1.85rem;  
+                padding: 0.2rem 1rem;
+  
+            }
+
+            @include respond (phablet-l){
+            font-size: 1.5rem;    
+            padding: 0.2rem 1rem;
+            }
+            
+    
+        }
+    
+    
+        &__links--unique:hover{
+    
+            color: $gray-light;
+    
+            
+    
+    
+        }
+    }
+    
+    
